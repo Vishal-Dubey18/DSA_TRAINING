@@ -19,5 +19,12 @@ int main(){
     }
     cout<<fab<<endl;
 
-    
+    int k=1;
+    int whilef=1;
+    while(k<=num){
+        whilef=whilef*k;
+        k++;
+    }
+    cout<<whilef<<endl;
+
 }
